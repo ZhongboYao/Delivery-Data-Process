@@ -156,7 +156,6 @@ class Expansion:
                     row.extend([intersection_num, degree, density, average_nodeConnectivity, edgeConnectivity])
                     writer.writerow(row)
 
-gmaps = googlemaps.Client(key='AIzaSyBFJyArj6F3I1w8MBG4uyBpRrpvAK2FyIA')
 path0 = 'Data.csv'
 path1 = 'Data1.csv'
 path2 = 'Data2.csv'
